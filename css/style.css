@@ -221,6 +221,7 @@
     color: white;
 }
 .section {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -284,4 +285,349 @@
 }
 .fourth-arrow {
     display: flex;
+}
+.section-fifth {
+    height: 900px;
+}
+.review {
+    background: #EBEBEB;
+    width: 1110px;
+    height: 320px;
+}
+.review-text {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 45px;
+}
+.author-review {
+    padding-left: 95px;
+    padding-top: 58px;
+    display: flex;
+}
+.name {
+    padding-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    flex-wrap: nowrap;
+}
+.work-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4F4F4F;
+    flex-wrap: nowrap;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+.slider-third {
+    padding-top: 100px;
+}
+.slider_img3 {
+    margin-left: 828px;
+}
+.footer {
+    height: 100px;
+    background: #EBEBEB;
+    display: flex;
+    justify-content: space-between;
+}
+.text1 {
+    font-family: 'Lato', sans-serif;
+    padding-top: 40px;
+    margin-left: 407px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+.text2 {
+    font-family: 'Lato', sans-serif;
+    padding-top: 40px;
+    margin-right: 405px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+.contact {
+    margin: 140px;
+    height: 623px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/Rectangle.png), #C4C4C4;
+}
+.contact-h {
+    font-family: 'Merriweather', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #FFFFFF;
+    padding-top: 122px;
+}
+.contact-text {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    margin-top: 60px;
+    width: 445px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+}
+.telnmail {
+    width: 500px;
+    display: flex;
+    margin-top: 79px;
+}
+.tel-img {
+    width: 18px;
+    height: 30px;
+}
+.mail-img {
+    width: 36px;
+    height: 30px;
+}
+.tel {
+    height: 30px;
+    display: flex;
+}
+.telnum {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 15px;
+    justify-content: center;
+}
+.mail {
+    padding-left: 40px;
+    height: 30px;
+    display: flex;
+}
+.mail1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 15px;
+    justify-content: center;
+}
+.sixth_section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/Rectangle.png), #C4C4C4;
+}
+
+.sixth-title {
+    font-family: 'Merriweather', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.text-sixth {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    width: 470px;
+}
+
+.up-block {
+    padding-top: 122px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tel6, .mail6 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.num, .mail {
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"] {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #005FA3;
+    width: 270px;
+    height: 60px;
+    border: none;
+}
+
+.block-sixth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.fname-input, .sname-input, .textarea {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.label-name, .label-sname, .textarea-label {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 15px; 
+}
+input, textarea {
+    border: none;
+    background: none;
+    outline: none;
+    resize: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #fff;
+}
+.button {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    margin-bottom: 140px;
+}
+@media (max-width: 1115px) {
+    .slider_img {
+        margin-left: 100px;
+    }
+    .nav_main {
+        margin-right: 50px;
+    }
+    .text1 {
+        margin-left: 50px;
+    }
+    .text2 {
+        margin-right: 50px;
+    }
+}
+@media (max-width: 1041px) {
+    .section-third {
+        margin-top: 200px;
+    }
+    .cards-main {
+        display: none;
+    }
+    .microsoft {
+        flex-wrap: wrap;
+    }
+    .left-arrow-1 {
+        margin-right: 200px;
+    }
+    .right-arrow-1 {
+        margin-right: 200px;
+    }
+    .review {
+        width: 946px;
+    }
+}
+@media (max-width: 970px) {
+    .block-sixth {
+        flex-wrap: wrap;
+    }
+    form {
+        margin-top: 50px;
+    }
+    .navigation {
+        flex-wrap: wrap;
+    }
+    .review {
+        width: 946px;
+    }
+}
+@media (max-width: 946px) {
+    .kf {
+        display: none;  
+    }
+    .slider-third {
+        display: none;
+    }
+    .review {
+        width: 646px;
+    }
+}
+@media (max-width: 775px) {
+    .input {
+        display: none;
+    }
+    .nav_main {
+        flex-wrap: wrap;
+    }
+    .nav_item {
+        padding-right: 10px;
+    }
+    .review {
+        width: 646px;
+    }
+}
+@media (max-width: 700px) {
+    .card {
+        height: 300px;
+        width: 300px;
+    }
+    .review {
+        width: 646px;
+    }
+}
+@media (max-width: 646px) {
+    .review {
+        width: 500px;
+    }
+}
+@media (max-width: 600px) {
+    .card {
+        height: 250px;
+        width: 250px;
+    }
+}
+@media (max-width: 500px) {
+    .card {
+        height: 175px;
+        width: 175px;
+        padding: 0;
+        font-size: 15px;
+    }
+    .review-text {
+        font-size: 12px;
+    }
 }
